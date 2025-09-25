@@ -4,7 +4,7 @@ class A2I {
    (* 将字符串转为整数 *)
    a2i(s : String) : Int {
       let i : Int <- 0 in {
-         i <- (new IO).in_int();  -- 这里写简单的实现，或者自己写解析
+         i <- (new IO).in_int();  
          i;
       }
    };
@@ -12,7 +12,7 @@ class A2I {
    (* 将整数转为字符串 *)
    i2a(i : Int) : String {
       let s : String in {
-         s <- (new IO).in_string();  -- 这里写简单的实现，或者自己自己造字符串
+         s <- (new IO).in_string(); 
          s;
       }
    };
