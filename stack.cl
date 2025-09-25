@@ -1,4 +1,3 @@
-(* A2I: Ascii to Integer conversion helper class *)
 class A2I {
 
    (* 将字符串转为整数 *)
