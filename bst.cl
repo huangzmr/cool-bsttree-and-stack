@@ -7,7 +7,7 @@ class Node {
   init(k : Int) : Node {
     {
       key <- k;
-      self;   -- left 和 right 默认是 void
+      self;  
     }
   };
 
@@ -41,7 +41,7 @@ class Node {
   };
 };
 
-(* 二叉树类 *)
+
 class Tree {
   root : Node;  -- 默认 void
 
@@ -67,7 +67,7 @@ class Tree {
   };
 };
 
-(* 主程序测试 *)
+
 class Main {
   main() : Int {
     let t : Tree <- (new Tree).init() in {
